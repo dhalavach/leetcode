@@ -1,9 +1,14 @@
 function romanToInt(s: string): number {
 
+  const romanNumerals = 'IVXLDCM'
+  for (let c of s) {
+  if (!romanNumerals.includes(c)) throw new Error ('Invalid input!')
+  }
+
   let res = 0;
   let prev = 0;
 
-  function parseNumFromRoman(char: string) {
+  function parseNumFromRoman(char: string): number | undefined {
     switch (char) {
       case 'I':
         return 1;

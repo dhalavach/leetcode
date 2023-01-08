@@ -4,6 +4,10 @@ test('the function has been defined', () => {
   expect(romanToInt).toBeDefined();
 });
 
+test('the functions throws an error when called with invalid input', () => {
+  expect(() => romanToInt('asdf')).toThrow('Invalid input!');
+});
+
 test('the function returns a number when called with Roman I', () => {
   expect(typeof romanToInt('I') === 'number');
 });
