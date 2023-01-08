@@ -21,6 +21,4 @@ function romanToInt(s) {
     .replace(/CM/gi, 'DCCCC');
 
   return numString.split('').reduce((prev, curr) => prev + map.get(curr), 0);
-
-  return res;
 }

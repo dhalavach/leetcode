@@ -1,4 +1,4 @@
-const romanToInt = require('../src/romanToArabic2.js');
+const romanToInt = require('../src/romanToInteger.ts');
 
 test('the function has been defined', () => {
   expect(romanToInt).toBeDefined();
