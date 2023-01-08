@@ -1,3 +1,8 @@
+/**
+ * @param {string} s
+ * @return {number}
+ */
+
 function romanToInt(s: string): number {
 
   const romanNumerals = 'IVXLDCM'
