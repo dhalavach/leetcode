@@ -1,13 +1,13 @@
 {
   "name": "leetcode",
   "version": "1.0.0",
-  "description": "",
-  "main": "romanToArabic.js",
+  "description": "Repository for Leetcode grinding",
+  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["leetcode", "coding puzzles", "typescript", "javascript"],
+  "author": "Dmitry Halavach",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.20.12",
