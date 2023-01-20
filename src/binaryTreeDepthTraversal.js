@@ -15,8 +15,8 @@ function traverse(root) {
   while (stack.length > 0) {
     let current = stack.pop();
     res.push(current.value);
-    if (current.left) stack.push(current.left);
     if (current.right) stack.push(current.right);
+    if (current.left) stack.push(current.left);
   }
 
   return res;
